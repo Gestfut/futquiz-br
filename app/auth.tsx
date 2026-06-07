@@ -32,7 +32,7 @@ export default function AuthScreen() {
       const data = await api.login(email, password)
       await AsyncStorage.setItem('auth_token', data.token)
       await AsyncStorage.setItem('auth_user', JSON.stringify(data.user))
-      router.replace('/(tabs)/')
+      router.replace('/')
     } catch (e: any) {
       Alert.alert('Erro', e.message)
     } finally {
