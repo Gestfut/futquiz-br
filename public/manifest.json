@@ -1,0 +1,22 @@
+{
+  "name": "Fut Manager Pocket",
+  "short_name": "FutManager",
+  "description": "Quiz de futebol + coleção de cartas + gestão de time",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#050f0a",
+  "theme_color": "#050f0a",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

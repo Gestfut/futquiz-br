@@ -1,25 +1,36 @@
 {
   "expo": {
-    "name": "futmanager-pocket",
+    "name": "Fut Manager Pocket",
     "slug": "futmanager-pocket",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "userInterfaceStyle": "dark",
+    "scheme": "futmanager",
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.futmanager.pocket"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
-        "foregroundImage": "./assets/android-icon-foreground.png",
-        "backgroundImage": "./assets/android-icon-background.png",
-        "monochromeImage": "./assets/android-icon-monochrome.png"
+        "backgroundColor": "#1a3a2a",
+        "foregroundImage": "./assets/android-icon-foreground.png"
       },
-      "predictiveBackGestureEnabled": false
+      "package": "com.futmanager.pocket"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
-    }
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro",
+      "name": "Fut Manager Pocket",
+      "shortName": "FutManager",
+      "description": "Quiz de futebol + coleção de cartas + gestão de time",
+      "themeColor": "#050f0a",
+      "backgroundColor": "#050f0a",
+      "display": "standalone",
+      "orientation": "portrait"
+    },
+    "plugins": [
+      "expo-router"
+    ]
   }
 }
